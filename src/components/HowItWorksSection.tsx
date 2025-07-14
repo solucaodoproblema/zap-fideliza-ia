@@ -1,9 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, ShoppingBag, MessageCircle, RotateCcw } from "lucide-react";
-
 export const HowItWorksSection = () => {
-  return (
-    <section className="py-20 bg-muted/30">
+  return <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -20,7 +18,7 @@ export const HowItWorksSection = () => {
               </div>
               <h3 className="text-xl font-bold mb-4">1. Cliente Finaliza Compra</h3>
               <ul className="text-left space-y-2 text-sm text-muted-foreground">
-                <li>• Recebe mensagem automática de agradecimento</li>
+                <li>• Envia foto Cupom Fiscal ou selo digital e recebe confirmação com mensagem automática de agradecimento</li>
                 <li>• Pontos creditados automaticamente</li>
                 <li>• Sugestão de próxima compra baseada em IA</li>
               </ul>
@@ -110,6 +108,5 @@ export const HowItWorksSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
