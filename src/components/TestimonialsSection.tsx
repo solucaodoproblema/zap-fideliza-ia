@@ -44,7 +44,7 @@ export const TestimonialsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             O que Nossos Clientes Estão <span className="gradient-text">Falando</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Clientes já transformaram seu relacionamento com clientes usando o VerticalZap</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Relacionamentos com Clientes transformados com o VerticalZap</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
