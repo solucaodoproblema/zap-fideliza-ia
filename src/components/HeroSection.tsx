@@ -1,13 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Check, Zap, Users, Bot, TrendingUp } from "lucide-react";
-
 export const HeroSection = () => {
   const scrollToContact = () => {
-    document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("contato")?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-accent/20 to-secondary/10 pt-20">
+  return <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-accent/20 to-secondary/10 pt-20">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -24,17 +23,8 @@ export const HeroSection = () => {
             </p>
 
             <div className="mb-8">
-              <Button 
-                size="lg"
-                className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-lg px-8 py-6 animate-pulse-glow"
-                onClick={scrollToContact}
-              >
-                <Zap className="mr-2" />
-                🚀 Começar Agora Grátis
-              </Button>
-              <p className="text-sm text-muted-foreground mt-2">
-                Sem cartão de crédito. Configuração em 2 minutos.
-              </p>
+              
+              
             </div>
 
             {/* Benefits */}
@@ -99,6 +89,5 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
