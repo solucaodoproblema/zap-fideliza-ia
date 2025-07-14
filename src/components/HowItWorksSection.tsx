@@ -18,7 +18,7 @@ export const HowItWorksSection = () => {
               </div>
               <h3 className="text-xl font-bold mb-4">1. Cliente Finaliza Compra</h3>
               <ul className="text-left space-y-2 text-sm text-muted-foreground">
-                <li>• Envia foto Cupom Fiscal ou selo digital e recebe confirmação com mensagem automática de agradecimento</li>
+                <li>• p</li>
                 <li>• Pontos creditados automaticamente</li>
                 <li>• Sugestão de próxima compra baseada em IA</li>
               </ul>
