@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const WhatsAppFloat = () => {
   const handleWhatsAppContact = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Quero conhecer o VerticalZap e fidelizar meus clientes com IA!", "_blank");
+    window.open("https://wa.me/5542999897303?text=Olá! Quero conhecer o VerticalZap e fidelizar meus clientes com IA!", "_blank");
   };
 
   return (
