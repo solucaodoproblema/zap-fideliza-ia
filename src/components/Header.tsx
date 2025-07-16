@@ -40,7 +40,7 @@ export const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transition-all duration-300" onClick={() => scrollToSection("contato")}>Agende Sua Consultoria</Button>
+            <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg transition-all duration-300" onClick={() => window.open("https://wa.me/5542999897303?text=Olá! Quero agendar uma consultoria sobre o VerticalZap!", "_blank")}>Agende Sua Consultoria</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -61,8 +61,8 @@ export const Header = () => {
               <button onClick={() => scrollToSection("contato")} className="text-left text-foreground hover:text-primary transition-colors">
                 Contato
               </button>
-              <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow mt-4" onClick={() => scrollToSection("contato")}>
-                Testar Grátis
+              <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow mt-4" onClick={() => window.open("https://wa.me/5542999897303?text=Olá! Quero agendar uma consultoria sobre o VerticalZap!", "_blank")}>
+                Agende Sua Consultoria
               </Button>
             </nav>
           </div>}
