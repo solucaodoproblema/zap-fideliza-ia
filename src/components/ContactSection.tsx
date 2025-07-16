@@ -67,7 +67,7 @@ export const ContactSection = () => {
             <Shield className="text-primary mx-auto mb-4" size={48} />
             <h3 className="text-2xl font-bold mb-4">💯 Garantia de 30 dias ou seu dinheiro de volta</h3>
             <p className="text-muted-foreground">
-              Se não aumentar sua retenção em 30 dias, devolvemos 100% do investimento
+              Se a Ferramenta não atender as expectativas em 30 dias, devolvemos 100% do investimento
             </p>
           </div>
 
