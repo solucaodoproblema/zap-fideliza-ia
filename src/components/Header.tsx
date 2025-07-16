@@ -33,9 +33,6 @@ export const Header = () => {
             <button onClick={() => scrollToSection("diferenciais")} className="text-foreground hover:text-primary transition-colors">
               Diferenciais
             </button>
-            <button onClick={() => scrollToSection("depoimentos")} className="text-foreground hover:text-primary transition-colors">
-              Depoimentos
-            </button>
             <button onClick={() => scrollToSection("contato")} className="text-foreground hover:text-primary transition-colors">
               Contato
             </button>
@@ -60,9 +57,6 @@ export const Header = () => {
               </button>
               <button onClick={() => scrollToSection("diferenciais")} className="text-left text-foreground hover:text-primary transition-colors">
                 Diferenciais
-              </button>
-              <button onClick={() => scrollToSection("depoimentos")} className="text-left text-foreground hover:text-primary transition-colors">
-                Depoimentos
               </button>
               <button onClick={() => scrollToSection("contato")} className="text-left text-foreground hover:text-primary transition-colors">
                 Contato
