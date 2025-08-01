@@ -4,7 +4,7 @@ import { MessageCircle, Clock, Mail, Shield } from "lucide-react";
 
 export const ContactSection = () => {
   const handleWhatsAppContact = () => {
-    window.open("https://wa.me/5542999897303?text=Olá! Quero conhecer o VerticalZap e começar a fidelizar meus clientes com IA!", "_blank");
+    window.open("https://wa.me/5547996938040?text=Olá! Quero conhecer o VerticalZap e começar a fidelizar meus clientes com IA!", "_blank");
   };
 
   return (
@@ -41,7 +41,7 @@ export const ContactSection = () => {
               <CardContent className="p-6">
                 <MessageCircle className="text-primary mx-auto mb-4" size={32} />
                 <h3 className="font-bold mb-2">WhatsApp</h3>
-                <p className="text-sm text-muted-foreground">(42) 99989-7303</p>
+                <p className="text-sm text-muted-foreground">(47) 99693-8040</p>
               </CardContent>
             </Card>
 
